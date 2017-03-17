@@ -3521,6 +3521,10 @@ body.noscroll {
 
 /* BMG Landing Page Styles */
 
+.centreg {
+  text-align: center;
+}
+
 .navbar-brand {
   line-height: 24px;
   text-align: center;
