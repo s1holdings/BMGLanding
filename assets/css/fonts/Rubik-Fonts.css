@@ -32,8 +32,8 @@
 
 @font-face {
 	font-family: 'Droid Serif';
-	src:url('../../fonts/Droid-Serif/DroidSerif.woff?d7yf1v') format('woff'),
-		url('../../fonts/Droid-Serif/DroidSerif.ttf?d7yf1v') format('truetype');
+	src:url('../../fonts/DroidSerif/DroidSerif.woff?d7yf1v') format('woff'),
+		url('../../fonts/DroidSerif/DroidSerif.ttf?d7yf1v') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
