@@ -29,3 +29,10 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Droid Serif';
+	src:url('../../fonts/Droid-Serif/DroidSerif.ttf?d7yf1v') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
