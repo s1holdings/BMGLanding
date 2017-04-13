@@ -3868,3 +3868,11 @@ img.aboutlogo {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:not(.btn):hover, .navbar-default .navbar-nav > .active > a:not(.btn):focus, .navbar-default .navbar-nav > li > a:not(.btn):hover, .navbar-default .navbar-nav > li > a:not(.btn):focus {
     color: #ffb700;
 }
+.section {
+    padding: 100px 0 !important;
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .section-numbers-2 .number {
+    font-size: 34px !important;
+  }
+}
