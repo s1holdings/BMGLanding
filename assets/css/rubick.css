@@ -3841,3 +3841,30 @@ body.noscroll {
     margin-top: 0;
   }
 }
+/* BMG Custom Styles */
+a {
+  font-family: inherit !important;
+}
+img.aboutlogo {
+    width: 40px;
+    height: 40px;
+    margin: -15px 5px 0;
+}
+.inlinehead {
+  display: inline-block;
+}
+.logotitle {
+  text-align: center;
+}
+.navbar .navbar-brand {
+  padding: 5px 15px 0 !important;
+}
+.navbar .navbar-nav > li > a {
+    padding: 10px !important;
+}
+.navbar-brand > img {
+    height: 40px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:not(.btn):hover, .navbar-default .navbar-nav > .active > a:not(.btn):focus, .navbar-default .navbar-nav > li > a:not(.btn):hover, .navbar-default .navbar-nav > li > a:not(.btn):focus {
+    color: #ffb700;
+}
