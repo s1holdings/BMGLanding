@@ -3845,6 +3845,9 @@ body.noscroll {
 a {
   font-family: inherit !important;
 }
+h5 a {
+  color: #fff;
+}
 img.aboutlogo {
     width: 40px;
     height: 40px;
@@ -3875,9 +3878,18 @@ img.aboutlogo {
 }
 .navbar-default > .container > .navbar-header > .navbar-brand {
     background-image: url('../img/bmg-logo-horizontal.png');
+    margin-top: 15px;
 }
 @media screen and (max-width: 992px) and (min-width: 769px) {
   .section-numbers-2 .number {
     font-size: 34px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card.add-animation.centreg.animate > p {
+      text-align: left;
+  }
+  .row {
+    padding: 40px 0;
   }
 }
