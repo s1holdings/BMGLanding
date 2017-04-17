@@ -3880,7 +3880,7 @@ img.aboutlogo {
     height:40px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:not(.btn):hover, .navbar-default .navbar-nav > .active > a:not(.btn):focus, .navbar-default .navbar-nav > li > a:not(.btn):hover, .navbar-default .navbar-nav > li > a:not(.btn):focus {
-    color: #ffb700;
+    color: #a41f35;
 }
 .navbar-transparent > .container > .navbar-header > .navbar-brand {
     background-image: url('../img/bmg-logo-horizontal-light.png') !important;
@@ -3891,6 +3891,12 @@ img.aboutlogo {
 }
 .over-area .content p {
     margin-top: 90px;
+}
+.separator-container .separator {
+    color: #a41f35 !important;
+}
+.separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
+    border: 1px solid #a41f35 !important;
 }
 .whitelink, .whitelinknohov {
     color: #777;
