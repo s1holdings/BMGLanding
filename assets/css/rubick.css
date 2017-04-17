@@ -3880,6 +3880,9 @@ img.aboutlogo {
     background-image: url('../img/bmg-logo-horizontal.png');
     margin-top: 15px;
 }
+.over-area .content p {
+    margin-top: 154px;
+}
 @media screen and (max-width: 992px) and (min-width: 769px) {
   .section-numbers-2 .number {
     font-size: 34px !important;
