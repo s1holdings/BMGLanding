@@ -3843,10 +3843,19 @@ body.noscroll {
 }
 /* BMG Custom Styles */
 a {
-  font-family: inherit !important;
+    font-family: inherit !important;
+}
+.fahid {
+    visibility: hidden;}
+.footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus, .footer .btn-social:hover, .whitelink:hover {
+    color: #fff !important;
+    cursor: pointer;
+}
+.footfit {
+    display: inline-block !important;
 }
 h5 a {
-  color: #fff;
+    color: #fff;
 }
 img.aboutlogo {
     width: 40px;
@@ -3881,7 +3890,13 @@ img.aboutlogo {
     margin-top: 15px;
 }
 .over-area .content p {
-    margin-top: 154px;
+    margin-top: 90px;
+}
+.whitelink, .whitelinknohov {
+    color: #777;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
 }
 @media screen and (max-width: 992px) and (min-width: 769px) {
   .section-numbers-2 .number {
