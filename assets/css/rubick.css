@@ -3865,6 +3865,9 @@ img.aboutlogo {
 .inlinehead {
     display: inline-block;
 }
+li#hpfeed ul, li#kodakfeed ul {
+    padding-left: 0 !important;
+}
 .logotitle {
     text-align: center;
 }
