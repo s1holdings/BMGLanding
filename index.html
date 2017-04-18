@@ -1019,13 +1019,13 @@
 
   <script>
     jQuery(function($) {
-      $("#hpfeed").rss("https://support.hplfmedia.com/blog.rss",
+      $("#hpfeed").rss("http://support.hplfmedia.com/blog.rss",
       {
         entryTemplate:'<a href="{url}">{title}</a>{teaserImage}<hr class="hr-small">',
         limit: 1
         
       }),
-      $("#kodakfeed").rss("https://data.kodakwfmedia.com/blog.rss",
+      $("#kodakfeed").rss("http://data.kodakwfmedia.com/blog.rss",
       {
         entryTemplate:'<a href="{url}">{title}</a>{teaserImage}',
         limit: 1
