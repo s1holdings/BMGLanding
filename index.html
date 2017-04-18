@@ -22,7 +22,7 @@
 <body id="skrollr-body">
   <!-- <div class="loading ">
   <div class="loading-container">
-    <p>Just a sec...</p>
+    <p>Loading...</p>
     <img class="loader" src="assets/img//rubik.svg"/>
   </div>
 </div> -->
@@ -161,7 +161,7 @@
                   <div class="separator-container">
                     <div class="separator line-separator">∎</div>
                   </div>
-                  <p class="logotitle add-animation">HP printing materials deliver uncompromising image quality, consistency, performance, durability, and value—with every print.
+                  <p class="logotitle">HP printing materials deliver uncompromising image quality, consistency, performance, durability, and value—with every print.
                   </p>
                   <div class="card">
                     <p class="add-animation">Original HP printing materials are designed to provide image quality, durability, and consistency you can rely on. Reliable results enable increased productivity and reduced costs. Original HP large format printing materials are far more than just paper. It’s the chemistry, together with the carefully engineered interaction between HP large format printers and Original HP inks that makes exceptional results possible. Image quality and consistency so predictable, it’s almost cliché. Print permanence that’s measured in generations, not months or years. Breakthrough innovations that give you real alternatives to traditional materials that, by nature, must trade-off quality, durability, even environmental considerations. The unique chemistry between HP large format printing materials, HP large format printers and Original HP inks changes all that—among the broad array of materials offered in the HP large format printing materials portfolio, you can have it all.
@@ -179,7 +179,7 @@
                   <div class="separator-container">
                     <div class="separator line-separator">∎</div>
                   </div>
-                  <p class="logotitle add-animation">Kodak is a technology company focused on imaging.
+                  <p class="logotitle">Kodak is a technology company focused on imaging.
                   </p>
                   <div class="card">
                     <p class="add-animation">We provide consumables and services to customers in graphic arts, commercial print, publishing, packaging, electronic displays, entertainment and commercial films, and consumer products markets.With our world-class R&amp;D capabilities, innovative solutions portfolio, and highly trusted brand, Kodak is helping customers around the globe to sustainably grow their businesses and enjoy their lives.Though Kodak has mostly been known for its historic role in photography, the company has served imaging needs of numerous industries since the early 1900s. Kodak's current portfolio is based on deep technological expertise developed over the years in materials science, deposition and digital imaging science.Using this expertise, the company that delivered the first roll film and the first digital camera is now delivering leading solutions for today's business customers.
@@ -641,20 +641,10 @@
                       <h5 class="title">Latest News</h5>
                       <nav>
                           <ul>
-                              <li>
-                                  <a href="#">
-                                     <i class="fa fa-twitter"></i> <b>BMG News Item #1</b>
-                                     BMG News Item #1 is available here...
-                                     <hr class="hr-small">
-                                  </a>
+                              <li id="hpfeed">
                               </li>
-                              <li>
-                                    <a href="#">
-                                     <i class="fa fa-twitter"></i><b>BMG News Item #2</b>
-                                     BMG News Item #2 is available here...
-                                  </a>
+                              <li id="kodakfeed">
                               </li>
-                            
                           </ul>
                       </nav>
                   </div>
@@ -1009,6 +999,10 @@
   <!--   core js files    -->
   <script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
 
+  <script src="assets/js/rss.js" type="text/javascript"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+
   <script src="assets/js/bootstrap.js" type="text/javascript"></script>
   
   <!--   file for adding vertical points where we activate the elements animation   -->
@@ -1022,5 +1016,22 @@
   
   <!--  script for google maps   -->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+  <script>
+    jQuery(function($) {
+      $("#hpfeed").rss("http://support.hplfmedia.com/blog.rss",
+      {
+        entryTemplate:'<a href="{url}">{title}</a>{teaserImage}<hr class="hr-small">',
+        limit: 1
+        
+      }),
+      $("#kodakfeed").rss("http://data.kodakwfmedia.com/blog.rss",
+      {
+        entryTemplate:'<a href="{url}">{title}</a>{teaserImage}',
+        limit: 1
+        
+      })
+    })
+  </script>
 
 </html>
