@@ -3845,6 +3845,15 @@ body.noscroll {
 a {
     font-family: inherit !important;
 }
+#branddiv {
+    background-image: url('../img/rubik_background.jpg');
+    color: #fff;
+    height: 200px;
+    text-align: center;
+}
+#branddiv > h2 {
+    padding-top: 57px;
+}
 .fahid {
     visibility: hidden;}
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus, .footer .btn-social:hover, .whitelink:hover {
@@ -3861,6 +3870,9 @@ img.aboutlogo {
     width: 40px;
     height: 40px;
     margin: -15px 5px 0;
+}
+img.marlogo {
+    height: 75px;
 }
 .inlinehead {
     display: inline-block;
@@ -3900,6 +3912,9 @@ li#hpfeed ul, li#kodakfeed ul {
 }
 .separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
     border: 1px solid #a41f35 !important;
+}
+#veslogo {
+    margin-top: -10px;
 }
 .whitelink, .whitelinknohov {
     color: #777;
