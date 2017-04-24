@@ -3854,6 +3854,17 @@ a {
 #branddiv > h2 {
     padding-top: 57px;
 }
+.btn-primary {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+    padding: 15px 20px !important;
+    font-size: 20px;
+    opacity: 1.0 !important;
+    border: none !important;
+} 
+.btn-primary:hover {
+    background-color: #a41f35 !important;
+}
 .fahid {
     visibility: hidden;}
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus, .footer .btn-social:hover, .whitelink:hover {
