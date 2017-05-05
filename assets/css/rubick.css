@@ -3525,6 +3525,10 @@ body.noscroll {
   text-align: center;
 }
 
+.darkrow {
+  background-color: #000;
+}
+
 .navbar-brand {
   line-height: 24px;
   text-align: center;
