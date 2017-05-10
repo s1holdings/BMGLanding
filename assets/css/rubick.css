@@ -3852,11 +3852,36 @@ a {
 #branddiv {
     background-image: url('../img/rubik_background.jpg');
     color: #fff;
-    height: 200px;
+    height: 480px;
     text-align: center;
 }
 #branddiv > h2 {
     padding-top: 57px;
+}
+.brandlogo {
+    margin: 0 auto;
+}
+.brandlogo:hover {
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=70);
+
+  /* Netscape */
+  -moz-opacity: 0.7;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.7;
+
+  /* Good browsers */
+  opacity: 0.7;
+
+  /* This timing applies on the way IN */
+  transition-timing-function: ease-out;
+
+  /* A litttttle slower on the way in */
+  transition: 0.5s;
 }
 .btn-primary {
     color: #fff !important;
