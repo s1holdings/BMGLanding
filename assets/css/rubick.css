@@ -3895,7 +3895,8 @@ a {
     background-color: #a41f35 !important;
 }
 .fahid {
-    visibility: hidden;}
+    visibility: hidden;
+}
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus, .footer .btn-social:hover, .whitelink:hover {
     color: #fff !important;
     cursor: pointer;
@@ -3916,6 +3917,18 @@ img.marlogo {
 }
 .inlinehead {
     display: inline-block;
+}
+input#Field5, input#Field10 {
+    width: 25%;
+    margin: 10px 10px 10px 0;
+}
+input#Field7 {
+    width: 51%;
+    margin: 0 0 10px 0;
+}
+textarea#Field8 {
+    height: 100px;
+    width: 100%
 }
 li#hpfeed ul, li#kodakfeed ul {
     padding-left: 0 !important;
@@ -3946,6 +3959,10 @@ li#hpfeed ul, li#kodakfeed ul {
 }
 .over-area .content p {
     margin-top: 90px;
+}
+.section-contact-2 .contact-form {
+    margin-top: 0 !important;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .separator-container .separator {
     color: #a41f35 !important;
