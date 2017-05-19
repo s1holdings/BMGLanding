@@ -366,42 +366,58 @@
               </div>
           </div>
           <div class="contact-form">
-                  <!-- <div class="col-md-4">
+            <form id="form3" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://s1corp.wufoo.com/forms/q1x6p5jo0xhiov6/#public">
+                  <div class="col-md-4">
                       <div class="form-group add-animation animation-1">
                         <label>Your Full Name</label>
-                        <input type="text" value="" placeholder="Michael Jordan" class="form-control">
+                        <!-- <input type="text" value="" placeholder="Michael Jordan" class="form-control"> -->
+                        <input type="text" id="Field5" name="Field5" maxlength="80" placeholder="Name (required)" class="form-control" />
                       </div>
                   </div>
                   <div class="col-md-4">
                       <div  class="form-group add-animation animation-2">
                           <label>Your Email</label>
-                          <input type="text" value="" placeholder="michael.j@gmail.com" class="form-control">
+                          <!-- <input type="text" value="" placeholder="michael.j@gmail.com" class="form-control"> -->
+                          <input type="text" id="Field10" name="Field10" maxlength="255" placeholder="Email Address (required)" class="form-control" />
                       </div>
                   </div>
                   <div class="col-md-4">
                       <div  class="form-group add-animation animation-3">
                           <label>Subject</label>
-                          <input type="text" value="" placeholder="Say hi to you" class="form-control">
+                          <!-- <input type="text" value="" placeholder="Say hi to you" class="form-control"> -->
+                          <input type="text" id="Field7" name="Field7" placeholder="Subject" class="form-control" />
                       </div>
                   </div>
                   <div class="col-md-12">
                       <div  class="form-group add-animation animation-3">
-                          <textarea class="form-control" placeholder="Your message..." rows="8"></textarea>
+                          <!-- <textarea class="form-control" placeholder="Your message..." rows="8"></textarea> -->
+                          <textarea id="Field8" name="Field8" placeholder="Message (required)" class="form-control"></textarea>
+                          <ul>
+                            <li class="hide">
+                              <textarea name="comment" id="comment" rows="5" cols="100"></textarea>
+                            </li>
+                          </ul>
                       </div>
                   <div>
                   <div class="col-md-2 col-md-offset-5">
-                       <button  class="btn btn-lg btn-black btn-contact">
-                          SEND <i class="fa fa-paper-plane"></i>
+                      <input type="hidden" id="idstamp" name="idstamp" value="4Mhz4yJ3afLWgTAkJyZoMfHm3j3ArQnSr+yoDv5blgo=" />
+                       <!-- <input type="submit" id="saveForm" name="saveForm" value="Send Message" class="btn" /> -->
+                       <button type="submit" id="saveForm" name="saveForm" class="btn btn-lg btn-black btn-contact">
+                          Send Message <i class="fa fa-paper-plane"></i>
                        </button>
+                       <div class="data-status" style="margin-top:20px; display:none;"></div> 
                   </div>
               </div>
-          </div>
-        </div> -->
-        <form id="form3" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+        <!-- <form id="form3" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
       action="https://s1corp.wufoo.com/forms/q1x6p5jo0xhiov6/#public">
          <div class="container">
           <div class="base">
-           <!-- <h3>Keep In Touch</h3> -->
            <input type="text" id="Field5" name="Field5" maxlength="80" placeholder="Name (required)" />
            <input type="text" id="Field10" name="Field10" maxlength="255" placeholder="Email Address (required)" />
             <select id="Field13" name="Field13">
@@ -664,13 +680,10 @@
           </ul>
           <input type="hidden" id="idstamp" name="idstamp" value="4Mhz4yJ3afLWgTAkJyZoMfHm3j3ArQnSr+yoDv5blgo=" />
            <input type="submit" id="saveForm" name="saveForm" value="Send Message" class="btn" />
-           <div class="data-status" style="margin-top:20px; display:none;"></div> <!-- data submit status -->
+           <div class="data-status" style="margin-top:20px; display:none;"></div> //data submit status 
           </div>
          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+        </form> -->
     
     <footer class="footer footer-big footer-color-black" id="footerTrigger">
         <div class="container">
