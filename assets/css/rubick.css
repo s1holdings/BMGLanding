@@ -3919,12 +3919,12 @@ img.marlogo {
     display: inline-block;
 }
 input#Field5, input#Field10 {
-    width: 25%;
-    margin: 10px 10px 10px 0;
+    width: 100%;
+    /*margin: 10px 10px 10px 0;*/
 }
 input#Field7 {
-    width: 51%;
-    margin: 0 0 10px 0;
+    width: 100%;
+    /*margin: 0 0 10px 0;*/
 }
 textarea#Field8 {
     height: 100px;
