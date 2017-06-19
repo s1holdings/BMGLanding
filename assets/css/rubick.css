@@ -2401,7 +2401,7 @@ a.carousel-control span.fa {
   vertical-align: center;
   line-height: 1.7;
   position: relative;
-  top: 44%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -3849,13 +3849,13 @@ body.noscroll {
 a {
     font-family: inherit !important;
 }
-#branddiv {
+.branddiv {
     background-image: url('../img/rubik_background.jpg');
     color: #fff;
-    height: 480px;
+    height: 175px;
     text-align: center;
 }
-#branddiv > h2 {
+.branddiv > h2 {
     padding-top: 57px;
 }
 .brandlogo {
