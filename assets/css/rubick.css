@@ -1422,7 +1422,7 @@ body > .navbar-collapse.collapse {
   }
   .navbar-burger .navbar-toggle {
     display: block;
-    margin-right: 0;
+    margin-right: 42px;
   }
   .navbar-burger.navbar .navbar-collapse.collapse, .navbar-burger.navbar .navbar-collapse.collapse.in, .navbar-burger.navbar .navbar-collapse.collapsing {
     display: none !important;
@@ -2392,6 +2392,7 @@ a.carousel-control span.fa {
   height: 100%;
   display: block;
   top: 0;
+  background-color: #000;
 }
 .section-header .content {
   position: relative;
@@ -2401,10 +2402,10 @@ a.carousel-control span.fa {
   vertical-align: center;
   line-height: 1.7;
   position: relative;
-  top: 30%;
-  -webkit-transform: translateY(-50%);
+  top: 135px;
+  /*-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
 }
 .section-header h1 {
   letter-spacing: 0.1em;
@@ -3520,13 +3521,22 @@ body.noscroll {
 }
 
 /* BMG Landing Page Styles */
+a.over-area.color-1, a.over-area.color-1:hover {
+  color: #fff;
+}
 
-.centreg {
+.centreg, .logocont {
   text-align: center;
 }
 
 .darkrow {
   background-color: #000;
+}
+
+.logorow {
+  background-color: #000;
+  position: relative;
+  top: 170px;
 }
 
 .navbar-brand {
@@ -3536,6 +3546,10 @@ body.noscroll {
 
 .navbar-right > li > a {
   text-align: center;
+}
+
+.text-content {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -3704,7 +3718,7 @@ body.noscroll {
     height: 80vh;
   }
   .section-header .content {
-    top: 50%;
+    /*top: 50%;*/
   }
   .section-header .content h1, .section-header .content h5, .section-header .content p {
     margin: 0;
@@ -3952,6 +3966,7 @@ li#hpfeed ul, li#kodakfeed ul {
 }
 .navbar-transparent > .container > .navbar-header > .navbar-brand {
     background-image: url('../img/bmg-logo-horizontal-light.png') !important;
+    background-repeat: no-repeat;
 }
 .navbar-default > .container > .navbar-header > .navbar-brand {
     background-image: url('../img/bmg-logo-horizontal.png');
@@ -3961,6 +3976,7 @@ li#hpfeed ul, li#kodakfeed ul {
     margin-top: 90px;
 }
 .section-contact-2 .contact-form {
+    background-repeat: no-repeat;
     margin-top: 0 !important;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -3983,6 +3999,13 @@ select#Field13 {
     margin-bottom: 3px;
 }
 @media screen and (max-width: 992px) and (min-width: 769px) {
+  .section-header {
+    padding: 0 !important;
+    height: 640px !important;
+  }
+  .section-header .full-image {
+      height: 640px !important;
+  }
   .section-numbers-2 .number {
     font-size: 34px !important;
   }
@@ -3993,5 +4016,16 @@ select#Field13 {
   }
   .row {
     padding: 40px 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .section-header {
+    padding: 0 !important;
+    height: 1052px;
+  }
+  .section-header .full-image {
+      background-color: #000;
+      height: 1105px;
+      z-index: 999;
   }
 }
